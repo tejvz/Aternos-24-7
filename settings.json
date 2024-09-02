@@ -1,0 +1,52 @@
+{
+  "bot-account": {
+    "username": "Tej24by7",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "DemonsMc.aternos.me",
+    "port": 33952,
+    "version": "1.20.1"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "iamproplayer" 
+    }, 
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": false
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "/register iamproplayer",
+        "/login iamproplayer",
+        "test 3",
+        "test 4",
+        "test 5",
+        "test 6",
+        "test 7"
+      ]
+    },
+
+    "chat-log": false,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 10000
+  }
+}
